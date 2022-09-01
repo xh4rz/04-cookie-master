@@ -77,7 +77,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req }) => {
 
 	return {
 		props: {
-			theme: validThemes.includes(theme) ? theme : 'dark',
+			theme: validThemes.includes(theme) ? theme : 'custom',
 			name
 		}
 	};
